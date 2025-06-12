@@ -7,12 +7,9 @@ import "./style.css";
 import Logo from "../../components/Logo";
 import MyInput from "../../components/MyInput";
 
-const { useToken } = theme;
-
 // eslint-disable-next-line react-refresh/only-export-components
 export default () => {
 	const { Text, Link } = Typography;
-	const { token } = useToken();
 
 	return (
 		<Background>
@@ -41,9 +38,7 @@ export default () => {
 							<Space style={{ marginTop: "1rem" }}>
 								<Text strong>
 									Não tem conta?
-									<Link style={{ marginLeft: '5px' }}>
-										Inscreva-se
-									</Link>
+									<Link style={{ marginLeft: "5px" }}>Inscreva-se</Link>
 								</Text>
 							</Space>
 						</div>
