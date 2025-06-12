@@ -1,0 +1,9 @@
+.containerLogin{
+    background-color: var(--bgContainer);
+    min-width: 646px;
+    height: 100dvh;
+}
+
+.containerInputs{
+    margin: 2rem var(--horizontalSpace);
+}
