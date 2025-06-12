@@ -1,9 +1,14 @@
-.containerLogin{
-    background-color: var(--bgContainer);
-    min-width: 646px;
-    height: 100dvh;
+.containerLogin {
+	background-color: var(--bgContainer);
+	height: 100vh;
 }
 
-.containerInputs{
-    margin: 2rem var(--horizontalSpace);
+.containerInputs {
+	margin: 2rem var(--horizontalSpace);
+}
+
+@media (min-width: 600px) {
+	.containerLogin {
+		min-width: 646px;
+	}
 }
