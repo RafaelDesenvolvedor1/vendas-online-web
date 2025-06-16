@@ -1,11 +1,12 @@
 import Background from "../../components/Background";
-import { Button, Flex, Form, Input, Space, theme, Typography } from "antd";
+import { Flex, Form, Input, Space, Typography } from "antd";
 
 import { FaRegUser } from "react-icons/fa6";
 
 import "./style.css";
 import Logo from "../../components/Logo";
 import MyInput from "../../components/MyInput";
+import MyButton from "../../components/MyButton";
 
 // eslint-disable-next-line react-refresh/only-export-components
 export default () => {
@@ -27,14 +28,14 @@ export default () => {
 								<Input.Password size="large" />
 							</MyInput>
 
-							<Button
+							<MyButton
 								type="primary"
 								size="large"
 								block
-								style={{ marginTop: "2rem" }}
+								style={{marginTop: '2rem'}}
 							>
 								ENTRAR
-							</Button>
+							</MyButton>
 							<Space style={{ marginTop: "1rem" }}>
 								<Text strong>
 									Não tem conta?
